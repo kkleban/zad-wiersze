@@ -140,7 +140,13 @@ public function cudAction()
     /*
      * W
      */
-
+  /**
+    * @Route("/wrzechswiat.html", name="wrzechswiat")
+    */
+    public function wrzechswiatAction()
+    {
+        return $this->render('default/wrzechswiat.html.twig');
+    }
     /*
      * X
      */
